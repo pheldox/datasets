@@ -1,0 +1,76 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "roadsafety",
+      "path": "data/roadsafety.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Area(1000km sq)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Population",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "GDP per capita",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Population Density(Inhabitants per km sq.2017)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Vehicle Ownership(per 1000 inhabitants,2016)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Total Road Deaths",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Road deaths per Million Inhabitants",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "datapackage",
+  "title": "European Union Road Safety Data",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Pheldox",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "description": "Data on road accidents in the European Union for the year 2018. Few data features are dated in 2013,2016,2017. "
+}
